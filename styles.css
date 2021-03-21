@@ -1,0 +1,38 @@
+:root{
+    --fond: #002633;
+    --rouge: #c81010;
+    --bleu: #005881;
+    --jaune: #e4a600;
+    --vert: #00b5a6;
+    font-family: "Barlow", sans-serif;
+   
+}
+body{
+    font-family: "Barlow", sans-serif;
+    background-color: var(--fond);
+}
+.navbar-toggler{
+    background-color: #454545;
+    height: 56px;
+}
+#carousel img{
+    /* Le css calcule la hauteur de l'ecran moins la hauteur de la nav */
+    height: calc(100vh - 56px);
+    /* l'image doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur. */
+    object-fit: cover;
+}
+.rouge{
+    background-color: var(--rouge);
+}
+.bleu{
+    background-color: var(--bleu);
+}
+.jaune{
+    background-color: var(--jaune);
+}
+.vert{
+    background-color: var(--vert);
+}
+.la-sliders-h{
+    rotate: rotate(90°);
+}
